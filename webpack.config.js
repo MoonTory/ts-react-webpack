@@ -44,7 +44,7 @@ module.exports = {
   // Configuring webpack to use different modules, such as 'babel-loader', 'css-loader', 'file-loader', etc...
   module: {
     rules: [
-      { test: /\.(js|jsx|ts|tsx)$/, exclude: /node_modules/, use: ['babel-loader', 'eslint-loader'] },
+      { test: /\.(js|jsx|ts|tsx)$/, exclude: /node_modules/, use: ['babel-loader'/*, 'eslint-loader'*/] },
       {
         test: /\.(png|jpg|jpeg|svg|gif)$/,
         loader: 'file-loader',
