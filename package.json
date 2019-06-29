@@ -1,0 +1,10 @@
+{
+  "name": "ts-react-webpack",
+  "version": "0.0.1",
+  "description": "ReactJs Typescript Webpack 4 boilerplate",
+  "main": "index.js",
+  "repository": "https://github.com/MoonTory/ts-react-webpack.git",
+  "author": "Gustavo Quinta | MoonTory <gustavoqnt40@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
